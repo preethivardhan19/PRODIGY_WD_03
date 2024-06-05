@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <button id="start-btn">Start Game</button>
+        <div id="board" class="board">
+            <div class="cell" data-cell-index="0"></div>
+            <div class="cell" data-cell-index="1"></div>
+            <div class="cell" data-cell-index="2"></div>
+            <div class="cell" data-cell-index="3"></div>
+            <div class="cell" data-cell-index="4"></div>
+            <div class="cell" data-cell-index="5"></div>
+            <div class="cell" data-cell-index="6"></div>
+            <div class="cell" data-cell-index="7"></div>
+            <div class="cell" data-cell-index="8"></div>
+        </div>
+        <div class="status">
+            <p>Wins: <span id="playerWins">0</span></p>
+            <p>Losses: <span id="computerWins">0</span></p>
+            <p>Draws: <span id="draws">0</span></p> <!-- Added draw count -->
+        </div>
+        <button id="reset-btn">Reset Game</button>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Batchala Sai Vivek intern at Prodigy InfoTech. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
